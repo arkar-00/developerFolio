@@ -4,6 +4,20 @@
 
 import emoji from "react-easy-emoji";
 import splashAnimation from "./assets/lottie/splashAnimation"; // Rename to your file name for custom animation
+import Html from "./assets/images/html.svg";
+import CSS from "./assets/images/css.svg";
+import Tailwind from "./assets/images/tailwind.svg";
+import React from "./assets/images/react.svg";
+import JavaScript from "./assets/images/javascript.svg";
+import TypeScript from "./assets/images/typescript.svg";
+import JetPack from "./assets/images/jetpack.svg";
+import Kotlin from "./assets/images/kotlin.svg";
+import Vercel from "./assets/images/vercel.svg";
+import Firebase from "./assets/images/firebase.svg";
+import ReactNativeFirebase from "./assets/images/react-native-firebase.svg";
+import Git from "./assets/images/git.svg";
+import NodeJs from "./assets/images/nodejs.svg";
+import Expo from './assets/images/expo.svg'
 
 // Splash Screen
 
@@ -73,57 +87,76 @@ https://fontawesome.com/icons?d=gallery */
 
   softwareSkills: [
     {
-      skillName: "html-5",
-      fontAwesomeClassname: "fab fa-html5"
+      skillName: "HTML-5",
+      fontAwesomeClassname: "fab fa-html5",
+      iconSource: Html
     },
     {
-      skillName: "css3",
-      fontAwesomeClassname: "fab fa-css3-alt"
+      skillName: "CSS3",
+      fontAwesomeClassname: "fab fa-css3-alt",
+      iconSource: CSS
     },
     {
-      skillName: "sass",
-      fontAwesomeClassname: "fab fa-sass"
+      skillName: "Tailwind",
+      fontAwesomeClassname: "fab fa-css3-alt",
+      iconSource: Tailwind
+    },
+    {
+      skillName: "Jetpack",
+      fontAwesomeClassname: "fab fa-react",
+      iconSource: JetPack
     },
     {
       skillName: "JavaScript",
-      fontAwesomeClassname: "fab fa-js"
+      fontAwesomeClassname: "fab fa-js",
+      iconSource: JavaScript
     },
     {
-      skillName: "reactjs",
-      fontAwesomeClassname: "fab fa-react"
+      skillName: "TypeScript",
+      fontAwesomeClassname: "fab fa-js",
+      iconSource: TypeScript
     },
+    {
+      skillName: "Kotlin",
+      fontAwesomeClassname: "fab fa-kotlin",
+      iconSource: Kotlin
+    },
+    {
+      skillName: "React",
+      fontAwesomeClassname: "fab fa-react",
+      iconSource: React
+    },
+    {
+      skillName: "Vercel",
+      fontAwesomeClassname: "fab fa-vercel",
+      iconSource: Vercel
+    },
+    {
+      skillName: "Expo",
+      fontAwesomeClassname: "fab fa-expo",
+      iconSource: Expo
+    },
+    {
+      skillName: "Firebase",
+      fontAwesomeClassname: "fab fa-firebase",
+      iconSource: Firebase
+    },
+    {
+      skillName: "React Native Firebase",
+      fontAwesomeClassname: "fab fa-react-native-firebase",
+      iconSource: ReactNativeFirebase
+    },
+
     {
       skillName: "nodejs",
-      fontAwesomeClassname: "fab fa-node"
+      fontAwesomeClassname: "fab fa-node",
+      iconSource: NodeJs
     },
-    // {
-    //   skillName: "swift",
-    //   fontAwesomeClassname: "fab fa-swift"
-    // },
     {
-      skillName: "npm",
-      fontAwesomeClassname: "fab fa-npm"
-    },
-    // {
-    //   skillName: "sql-database",
-    //   fontAwesomeClassname: "fas fa-database"
-    // },
-    // {
-    //   skillName: "aws",
-    //   fontAwesomeClassname: "fab fa-aws"
-    // },
-    {
-      skillName: "firebase",
-      fontAwesomeClassname: "fas fa-fire"
+      skillName: "git",
+      fontAwesomeClassname: "fab fa-git-alt",
+      iconSource: Git
     }
-    // {
-    //   skillName: "python",
-    //   fontAwesomeClassname: "fab fa-python"
-    // },
-    // {
-    //   skillName: "docker",
-    //   fontAwesomeClassname: "fab fa-docker"
-    // }
   ],
   display: true // Set false to hide this section, defaults to true
 };
@@ -153,18 +186,18 @@ const educationInfo = {
 // Your top 3 proficient stacks/tech experience
 
 const techStack = {
-  viewSkillBars: false, //Set it to true to show Proficiency Section
+  viewSkillBars: true, //Set it to true to show Proficiency Section
   experience: [
     {
-      Stack: "Frontend/Design", //Insert stack or technology you have experience in
-      progressPercentage: "90%" //Insert relative proficiency in percentage
+      Stack: "Frontend Development", //Insert stack or technology you have experience in
+      progressPercentage: "70%" //Insert relative proficiency in percentage
     },
     {
-      Stack: "Backend",
-      progressPercentage: "70%"
+      Stack: "Mobile Development",
+      progressPercentage: "90%"
     },
     {
-      Stack: "Programming",
+      Stack: "Backend Development",
       progressPercentage: "60%"
     }
   ],
@@ -174,43 +207,76 @@ const techStack = {
 // Work experience section
 
 const workExperiences = {
-  display: true, //Set it to true to show workExperiences Section
+  display: true, // Set to true to show the work experiences section
   experience: [
     {
       role: "Mobile Developer",
       company: "Shwe Bank",
       companylogo: require("./assets/images/shwe.png"),
       date: "January 2025 – Present",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      desc: "Building and maintaining high-performance, secure mobile banking applications.",
       descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+        "Developing and optimizing banking apps with a focus on security, scalability, and UX.",
+        "Enhanced app security, performance, and scalability for seamless transactions.",
+        "Implemented biometric authentication and multi-factor authentication (MFA) for secure logins."
       ]
     },
     {
       role: "Mobile Developer",
-      company: "Mo Money",
+      company: "Modus Operandi",
       companylogo: require("./assets/images/momoney.png"),
       date: "Oct 2023 – Dec 2024",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      desc: "Developed and optimized a digital payments mobile application.",
       descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+        "Integrated real-time payment processing and socket-based communication.",
+        "Implemented biometric authentication, encryption, and secure API communication.",
+        "Used Redux Saga for efficient API state management and caching.",
+        "Optimized app performance using React Native reanimated, Hermes, and Flipper for debugging.",
+        "Collaborating with backend teams to integrate seamless financial transactions."
+      ]
+    },
+    {
+      role: "Freelance Mobile & Web Developer",
+      company: "Self-Employed",
+      companylogo: require("./assets/images/code.jpeg"),
+      date: "2023 – Present",
+      desc: "Providing mobile and web development solutions to clients worldwide.",
+      descBullets: [
+        "Designed, developed, and launched high-performance mobile applications using React Native with a focus on seamless UI/UX.",
+        "Engineered scalable and interactive web applications with React, TypeScript, and Tailwind CSS, ensuring cross-platform compatibility.",
+        "Built and optimized Progressive Web Applications (PWA) to enhance performance, offline capabilities, and user engagement.",
+        "Implemented secure authentication methods, including OAuth, biometric login, and real-time updates using WebSockets and Firebase.",
+        "Integrated third-party services such as Firebase, In-app purchase, and analytics tools to enhance functionality.",
+        "Developed CI/CD pipelines using Fastlane and GitHub Actions for automated builds and deployments.",
+        "Developed offline-first functionality with local database storage (Realm & SQLite)."
       ]
     },
     {
       role: "Front-end Developer",
       company: "Ultimate Solution Myanmar",
       companylogo: require("./assets/images/ultimate.jpg"),
-      date: "May 2017 – May 2018",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      date: "Nov 2021 – Sep 2023",
+      desc: "Developed interactive, user-friendly web applications with modern front-end technologies.",
+      descBullets: [
+        "Built responsive UI using React.js, Tailwind CSS, and modern UI frameworks.",
+        "Worked closely with backend developers to integrate REST APIs.",
+        "Optimized web performance and improved SEO and accessibility.",
+        "Implemented state management solutions using React Query and Zustand.",
+        "Developed reusable UI components to maintain design consistency and improve development efficiency."
+      ]
     },
     {
       role: "Internship Developer",
       company: "Ultimate Solution Myanmar",
       companylogo: require("./assets/images/ultimate.jpg"),
-      date: "Jan 2015 – Sep 2015",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      date: "Jul 2020 – Sep 2020",
+      desc: "Assisted in front-end development and gained practical experience in UI/UX design.",
+      descBullets: [
+        "Worked on UI components and front-end optimizations.",
+        "Learned and applied best practices in React.js and JavaScript.",
+        "Collaborated with senior developers for debugging and feature enhancements.",
+        "Gained hands-on experience with responsive design and CSS frameworks like Bootstrap, MUI."
+      ]
     }
   ]
 };
