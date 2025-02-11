@@ -21,9 +21,9 @@ const illustration = {
 
 const greeting = {
   username: "Arkar Oo",
-  title: "Hi all, I'm Kar Oo",
+  title: "Hi, I'm Kar Oo",
   subTitle: emoji(
-    "A passionate  Front-end Developer 🚀 having an experience of building Web and Mobile applications with JavaScript / Reactjs / Nodejs / React Native and some other cool libraries and frameworks."
+    "A passionate Mobile & Front-end Developer 🚀 with experience in building high-performance Web and Mobile applications using React Native, React.js, TypeScript, Kotlin, and other modern technologies."
   ),
   resumeLink: "", // Set to empty to hide the button
   displayGreeting: true // Set false to hide this section, defaults to true
@@ -48,15 +48,24 @@ const socialMediaLinks = {
 
 const skillsSection = {
   title: "What I do",
-  subTitle: "CRAZY FULL STACK DEVELOPER WHO WANTS TO EXPLORE EVERY TECH STACK",
+  subTitle:
+    "PASSIONATE MOBILE & FRONT-END DEVELOPER EXPLORING ADVANCED TECH STACKS",
   skills: [
     emoji(
-      "⚡ Develop highly interactive Front end / User Interfaces for your web and mobile applications"
+      "⚡ Develop highly interactive Front-end / User Interfaces for web and mobile applications"
     ),
-    emoji("⚡ Progressive Web Applications ( PWA ) in normal and SPA Stacks")
-    // emoji(
-    //   "⚡ Integration of third party services such as Firebase/ Vercel / Digital Ocean"
-    // )
+    emoji("⚡ Progressive Web Applications (PWA) in normal and SPA stacks"),
+    emoji(
+      "⚡ Build high-performance cross-platform mobile apps with React Native"
+    ),
+    emoji(
+      "⚡ Implement end-to-end encryption, biometric authentication & secure communication"
+    ),
+    emoji(
+      "⚡ Optimize performance & scalability with best practices in Mobile & Web Dev"
+    ),
+    emoji("⚡ API integration & state management using Axios, React Query"),
+    emoji("⚡ Exploring CI/CD, automated testing & Mobile DevOps workflows")
   ],
 
   /* Make Sure to include correct Font Awesome Classname to view your icon
@@ -95,10 +104,10 @@ https://fontawesome.com/icons?d=gallery */
       skillName: "npm",
       fontAwesomeClassname: "fab fa-npm"
     },
-    {
-      skillName: "sql-database",
-      fontAwesomeClassname: "fas fa-database"
-    },
+    // {
+    //   skillName: "sql-database",
+    //   fontAwesomeClassname: "fas fa-database"
+    // },
     // {
     //   skillName: "aws",
     //   fontAwesomeClassname: "fab fa-aws"
@@ -106,7 +115,7 @@ https://fontawesome.com/icons?d=gallery */
     {
       skillName: "firebase",
       fontAwesomeClassname: "fas fa-fire"
-    },
+    }
     // {
     //   skillName: "python",
     //   fontAwesomeClassname: "fab fa-python"
@@ -210,7 +219,7 @@ const workExperiences = {
 To know how to get github key look at readme.md */
 
 const openSource = {
-  showGithubProfile: "true", // Set true or false to show Contact profile using Github, defaults to true
+  showGithubProfile: false, // Set true or false to show Contact profile using Github, defaults to true
   display: false // Set false to hide this section, defaults to true
 };
 
@@ -228,8 +237,8 @@ const bigProjects = {
         {
           name: "Visit Website",
           url: "http://saayahealth.com/"
-        },
-        
+        }
+
         //  you can add extra buttons here.
       ]
     },
@@ -369,7 +378,7 @@ const achievementSection = {
           url: "https://coursera.org/share/be758a510b0c9d0be2472ecd878a8f4d"
         }
       ]
-    },
+    }
   ],
   display: true // Set false to hide this section, defaults to true
 };
