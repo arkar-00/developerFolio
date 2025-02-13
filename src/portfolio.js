@@ -193,8 +193,8 @@ const educationInfo = {
     {
       schoolName: "University of Computer Studies, Maubin",
       logo: require("./assets/images/ucsmub.png"),
-      subHeader: "Bachelor of Computer Science",
-      duration: "December 2017 - April 2019",
+      subHeader: "Bachelor of Computer Science (B.C.Sc)",
+      duration: "December 2017 - February 2024",
       desc: "Participated in the Group Project",
       descBullets: [
         "Online Shop Website (HTML, CSS, JavaScript)",
@@ -388,6 +388,19 @@ const achievementSection = {
     "Achievements, Certifications, Award Letters and Some Cool Stuff that I have done !",
 
   achievementsCards: [
+    {
+      title: "Leadership Training",
+      subtitle:
+        "The Lifestyle of Leaders from Bible, How to be a successful Leader, Vocational Training, Roles & Responsibilities of Executive Members, Social Networking, Self-capacity Building, Sex Education, Time Management & Self Palnning, How to reach out your goal",
+      image: require("./assets/images/aypa.png"),
+      imageAlt: "aypa logo",
+      footerLink: [
+        {
+          name: "Certification",
+          url: "https://coursera.org/share/d63ce9a11412368af8f05fa6861951c7"
+        }
+      ]
+    },
     {
       title: "Introduction to Mobile Development",
       subtitle:
