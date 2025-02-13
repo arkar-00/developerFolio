@@ -17,7 +17,11 @@ import Firebase from "./assets/images/firebase.svg";
 import ReactNativeFirebase from "./assets/images/react-native-firebase.svg";
 import Git from "./assets/images/git.svg";
 import NodeJs from "./assets/images/nodejs.svg";
-import Expo from './assets/images/expo.svg'
+import Expo from "./assets/images/expo.svg";
+import Sentry from "./assets/images/sentry.svg";
+import Redux from "./assets/images/redux.svg";
+import Fastlane from "./assets/images/fastlane.svg";
+import Ananlytics from "./assets/images/analytics.svg";
 
 // Splash Screen
 
@@ -137,16 +141,36 @@ https://fontawesome.com/icons?d=gallery */
       iconSource: Expo
     },
     {
+      skillName: "Redux",
+      fontAwesomeClassname: "fab fa-redux",
+      iconSource: Redux
+    },
+    {
       skillName: "Firebase",
       fontAwesomeClassname: "fab fa-firebase",
       iconSource: Firebase
+    },
+    {
+      skillName: "Fastlane",
+      fontAwesomeClassname: "fab fa-fastlane",
+      iconSource: Fastlane
     },
     {
       skillName: "React Native Firebase",
       fontAwesomeClassname: "fab fa-react-native-firebase",
       iconSource: ReactNativeFirebase
     },
+    {
+      skillName: "Google Analytics",
+      fontAwesomeClassname: "fab fa-analytics",
+      iconSource: Ananlytics
+    },
 
+    {
+      skillName: "Sentry",
+      fontAwesomeClassname: "fab fa-sentry",
+      iconSource: Sentry
+    },
     {
       skillName: "nodejs",
       fontAwesomeClassname: "fab fa-node",
@@ -269,7 +293,7 @@ const workExperiences = {
       role: "Internship Developer",
       company: "Ultimate Solution Myanmar",
       companylogo: require("./assets/images/ultimate.jpg"),
-      date: "Jul 2020 – Sep 2020",
+      date: "Jul 2019 – Sep 2019",
       desc: "Assisted in front-end development and gained practical experience in UI/UX design.",
       descBullets: [
         "Worked on UI components and front-end optimizations.",
@@ -296,48 +320,58 @@ const bigProjects = {
   subtitle: "SOME STARTUPS AND COMPANIES THAT I HELPED TO CREATE THEIR TECH",
   projects: [
     {
-      image: require("./assets/images/saayaHealthLogo.webp"),
-      projectName: "Saayahealth",
-      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      image: require("./assets/images/project1.png"),
+      projectName: "Little Lemon",
+      projectDesc:
+        "A local-first React Native Expo food app where users can sign up, browse a categorized menu, and manage their profile. The app prioritizes local data storage using SQLite for menu management and AsyncStorage for user preferences, ensuring a seamless experience even offline. Logging out clears user data and redirects to the login screen.",
       footerLink: [
         {
-          name: "Visit Website",
-          url: "http://saayahealth.com/"
-        }
-
-        //  you can add extra buttons here.
-      ]
-    },
-    {
-      image: require("./assets/images/nextuLogo.webp"),
-      projectName: "Nextu",
-      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-      footerLink: [
-        {
-          name: "Visit Website",
-          url: "http://nextu.se/"
+          name: "Source",
+          url: "https://github.com/arkar-00/little-lemon-food-ordering-app"
         }
       ]
     },
     {
-      image: require("./assets/images/nextuLogo.webp"),
-      projectName: "Nextu",
-      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      image: require("./assets/images/project2.png"),
+      projectName: "GESC Student",
+      projectDesc:
+        "The GESC Student App is a React Native application designed for students of the GESC Chinese Language Center. It provides students with access to their personal information, class history, vouchers, exam results, and announcements related to exams and news. The app ensures a seamless experience by keeping students informed and organized.",
       footerLink: [
         {
-          name: "Visit Website",
-          url: "http://nextu.se/"
+          name: "App Store",
+          url: "https://apps.apple.com/mm/app/gesc-student/id1669661006"
+        },
+        {
+          name: "Play Store",
+          url: "https://play.google.com/store/apps/details?id=com.gesc.memberapp&hl=en"
         }
       ]
     },
     {
-      image: require("./assets/images/nextuLogo.webp"),
-      projectName: "Nextu",
-      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      image: require("./assets/images/project3.png"),
+      projectName: "WZ Comics",
+      projectDesc:
+        "The Wun Zinn Comics App is a digital comic book store where users can browse, download, and subscribe to their favorite comics. The app supports in-app purchases and MPT subscriptions, allowing users to access premium content seamlessly. With a vast collection of comics, Wun Zinn provides an engaging reading experience for all comic lovers.",
       footerLink: [
         {
-          name: "Visit Website",
-          url: "http://nextu.se/"
+          name: "App Store",
+          url: "https://apps.apple.com/af/app/wun-zinn-comics/id6670696610"
+        }
+      ]
+    },
+    {
+      image: require("./assets/images/project4.png"),
+      projectName: "RoyalExpress Member",
+      projectDesc:
+        "The Royal Express Member App provides a seamless way to track deliveries in real time, calculate shipping costs, and locate the nearest branch for parcel drop-off or collection. With an intuitive interface, users can stay updated on their shipments anytime, anywhere.",
+      footerLink: [
+        {
+          name: "Play Store",
+          url: "https://play.google.com/store/apps/details?id=com.royalexpress.memberapp&hl=en"
+        },
+        {
+          name: "App Store",
+          url: "https://apps.apple.com/us/app/royal-express-member/id1538284560"
         }
       ]
     }
