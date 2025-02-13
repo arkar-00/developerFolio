@@ -252,7 +252,7 @@ const workExperiences = {
       date: "Oct 2023 – Dec 2024",
       desc: "Developed and optimized a digital payments mobile application.",
       descBullets: [
-        "Integrated real-time payment processing and socket-based communication.",
+        "Developed and maintained mobile applications for financial portfolio management, allowing users to track investments and analyze financial data securely.",
         "Implemented biometric authentication, encryption, and secure API communication.",
         "Used Redux Saga for efficient API state management and caching.",
         "Optimized app performance using React Native reanimated, Hermes, and Flipper for debugging.",
@@ -270,13 +270,13 @@ const workExperiences = {
         "Engineered scalable and interactive web applications with React, TypeScript, and Tailwind CSS, ensuring cross-platform compatibility.",
         "Built and optimized Progressive Web Applications (PWA) to enhance performance, offline capabilities, and user engagement.",
         "Implemented secure authentication methods, including OAuth, biometric login, and real-time updates using WebSockets and Firebase.",
-        "Integrated third-party services such as Firebase, In-app purchase, and analytics tools to enhance functionality.",
+        "Integrated third-party services such as Firebase, In-app purchase, Sentry and Google Analytics tools to enhance functionality.",
         "Developed CI/CD pipelines using Fastlane and GitHub Actions for automated builds and deployments.",
         "Developed offline-first functionality with local database storage (Realm & SQLite)."
       ]
     },
     {
-      role: "Front-end Developer",
+      role: "Front-end/ Mobile Developer",
       company: "Ultimate Solution Myanmar",
       companylogo: require("./assets/images/ultimate.jpg"),
       date: "Nov 2021 – Sep 2023",
@@ -317,7 +317,7 @@ const openSource = {
 
 const bigProjects = {
   title: "Projects",
-  subtitle: "SOME STARTUPS AND COMPANIES THAT I HELPED TO CREATE THEIR TECH",
+  subtitle: "Projects I Led and Contributed To",
   projects: [
     {
       image: require("./assets/images/project1.png"),
