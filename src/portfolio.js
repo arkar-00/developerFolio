@@ -41,9 +41,9 @@ const greeting = {
   username: "Arkar Oo",
   title: "Hi, I'm Kar Oo",
   subTitle: emoji(
-    "A passionate Mobile & Front-end Developer 🚀 with hands-on experience in building high-performance Web and Mobile applications using React Native, React.js, TypeScript, Kotlin, and other modern technologies. Skilled in Agile project management practices, including sprint planning, backlog refinement, and task prioritization, with expertise in using tools like Jira and Confluence to ensure efficient development cycles and team collaboration."
+    "A passionate Mobile & Front-end Developer 🚀 with experience in building high-performance Web and Mobile applications using React Native, React.js, TypeScript, Kotlin, and other modern technologies."
   ),
-  resumeLink: '', // Set to empty to hide the button
+  resumeLink: "", // Set to empty to hide the button
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 
@@ -275,7 +275,8 @@ const workExperiences = {
         "Managed tasks and priorities using Jira and Confluence to ensure timely delivery and team collaboration.",
         "Contributed to backlog refinement, task estimation, and ensuring clear communication across cross-functional teams."
       ]
-    },
+    }
+    ,
     {
       role: "Freelance Mobile & Web Developer",
       company: "Self-Employed",
