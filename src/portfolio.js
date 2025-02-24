@@ -41,9 +41,9 @@ const greeting = {
   username: "Arkar Oo",
   title: "Hi, I'm Kar Oo",
   subTitle: emoji(
-    "A passionate Mobile & Front-end Developer 🚀 with experience in building high-performance Web and Mobile applications using React Native, React.js, TypeScript, Kotlin, and other modern technologies."
+    "A passionate Mobile & Front-end Developer 🚀 with hands-on experience in building high-performance Web and Mobile applications using React Native, React.js, TypeScript, Kotlin, and other modern technologies. Skilled in Agile project management practices, including sprint planning, backlog refinement, and task prioritization, with expertise in using tools like Jira and Confluence to ensure efficient development cycles and team collaboration."
   ),
-  resumeLink: "", // Set to empty to hide the button
+  resumeLink: '', // Set to empty to hide the button
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 
@@ -65,25 +65,35 @@ const socialMediaLinks = {
 // Skills Section
 
 const skillsSection = {
-  title: "What I do",
+  title: "What I Do",
   subTitle:
-    "PASSIONATE MOBILE & FRONT-END DEVELOPER EXPLORING ADVANCED TECH STACKS",
+    "RESULT-DRIVEN MOBILE & FRONT-END DEVELOPER SPECIALIZING IN SCALABLE TECH SOLUTIONS",
   skills: [
     emoji(
-      "⚡ Develop highly interactive Front-end / User Interfaces for web and mobile applications"
-    ),
-    emoji("⚡ Progressive Web Applications (PWA) in normal and SPA stacks"),
-    emoji(
-      "⚡ Build high-performance cross-platform mobile apps with React Native"
+      "⚡ Design and develop interactive Front-end/User Interfaces for web and mobile applications"
     ),
     emoji(
-      "⚡ Implement end-to-end encryption, biometric authentication & secure communication"
+      "⚡ Develop high-performance, cross-platform mobile applications with React Native"
     ),
     emoji(
-      "⚡ Optimize performance & scalability with best practices in Mobile & Web Dev"
+      "⚡ Implement end-to-end encryption, biometric authentication, and secure communication"
     ),
-    emoji("⚡ API integration & state management using Axios, React Query"),
-    emoji("⚡ Exploring CI/CD, automated testing & Mobile DevOps workflows")
+    emoji(
+      "⚡ Optimize performance, scalability, and maintainability using best practices"
+    ),
+    emoji("⚡ API integration and state management with Axios and React Query"),
+    emoji("⚡ CI/CD pipelines, automated testing, and Mobile DevOps workflows"),
+    emoji("⚡ Work within Agile frameworks (Scrum) for iterative development"),
+    emoji(
+      "⚡ Collaborate using Jira for sprint planning, issue tracking, and backlog management"
+    ),
+    emoji(
+      "⚡ Document features, workflows, and sprint retrospectives in Confluence"
+    ),
+    emoji("⚡ Version control and collaboration using Git, GitHub, and GitLab"),
+    emoji(
+      "⚡ UI/UX enhancement with Tailwind CSS, Reanimated 3, and NativeWind"
+    )
   ],
 
   /* Make Sure to include correct Font Awesome Classname to view your icon
@@ -242,7 +252,11 @@ const workExperiences = {
       descBullets: [
         "Developing and optimizing banking apps with a focus on security, scalability, and UX.",
         "Enhanced app security, performance, and scalability for seamless transactions.",
-        "Implemented biometric authentication and multi-factor authentication (MFA) for secure logins."
+        "Implemented biometric authentication and multi-factor authentication (MFA) for secure logins.",
+        "Applying Agile methodologies in development, including sprint planning, backlog management, and regular reviews.",
+        "Collaborating with cross-functional teams through Jira and Confluence to track progress and ensure timely delivery of features.",
+        "Managing project milestones, tasks, and priorities to meet deadlines and drive continuous delivery.",
+        "Ensuring clear communication across teams to align with business goals and meet client expectations."
       ]
     },
     {
@@ -252,11 +266,14 @@ const workExperiences = {
       date: "Oct 2023 – Dec 2024",
       desc: "Developed and optimized a digital payments mobile application.",
       descBullets: [
-        "Developed and maintained mobile applications for financial portfolio management, allowing users to track investments and analyze financial data securely.",
+        "Developed and maintained mobile applications for financial portfolio management, enabling users to track investments and analyze financial data securely.",
         "Implemented biometric authentication, encryption, and secure API communication.",
         "Used Redux Saga for efficient API state management and caching.",
-        "Optimized app performance using React Native reanimated, Hermes, and Flipper for debugging.",
-        "Collaborating with backend teams to integrate seamless financial transactions."
+        "Optimized app performance using React Native Reanimated, Hermes, and Flipper for debugging.",
+        "Collaborated with backend teams to integrate seamless financial transactions.",
+        "Applied Agile methodologies for iterative development, including sprint planning, daily stand-ups, and sprint reviews.",
+        "Managed tasks and priorities using Jira and Confluence to ensure timely delivery and team collaboration.",
+        "Contributed to backlog refinement, task estimation, and ensuring clear communication across cross-functional teams."
       ]
     },
     {
