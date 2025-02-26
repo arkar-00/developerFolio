@@ -115,11 +115,11 @@ https://fontawesome.com/icons?d=gallery */
       fontAwesomeClassname: "fab fa-css3-alt",
       iconSource: Tailwind
     },
-    {
-      skillName: "Jetpack",
-      fontAwesomeClassname: "fab fa-react",
-      iconSource: JetPack
-    },
+    // {
+    //   skillName: "Jetpack",
+    //   fontAwesomeClassname: "fab fa-react",
+    //   iconSource: JetPack
+    // },
     {
       skillName: "JavaScript",
       fontAwesomeClassname: "fab fa-js",
